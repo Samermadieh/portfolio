@@ -1,0 +1,21 @@
+#header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+    background-color: var(--color1);
+    border-bottom: 1px solid lightgray;
+    box-shadow: 0 0 10px black;
+    height: 6vh;
+}
+
+a {
+    font-size: large;
+    margin: 0 20px;
+    transition: color 0.3s;
+    cursor: pointer;
+}
+
+a:hover {
+    color: var(--color4);
+}
