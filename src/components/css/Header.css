@@ -14,6 +14,8 @@ a {
     margin: 0 20px;
     transition: color 0.3s;
     cursor: pointer;
+    text-decoration: none;
+    color: var(--color3);
 }
 
 a:hover {

@@ -2,7 +2,11 @@
   --color1: white;
   --color2: lightgray;
   --color3: black;
-  --color4: #594aa2;
+  --color4: #73fdfd;
+
+  --radius1: 5px;
+
+  --shadow1: 0 0 8px 2px rgba(0, 0, 0, 0.2);
 }
 
 body {
