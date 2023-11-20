@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.1b4d3c56.css",
-    "main.js": "/static/js/main.c46168ef.js",
+    "main.css": "/static/css/main.5bc3cc92.css",
+    "main.js": "/static/js/main.f0cb4d2f.js",
     "static/media/portrait.jpg": "/static/media/portrait.52430d6f007c2f74890c.jpg",
+    "static/media/SamerMadiehResume - 2023.pdf": "/static/media/SamerMadiehResume - 2023.7600e759cad57eddb8d0.pdf",
     "index.html": "/index.html",
-    "main.1b4d3c56.css.map": "/static/css/main.1b4d3c56.css.map",
-    "main.c46168ef.js.map": "/static/js/main.c46168ef.js.map"
+    "main.5bc3cc92.css.map": "/static/css/main.5bc3cc92.css.map",
+    "main.f0cb4d2f.js.map": "/static/js/main.f0cb4d2f.js.map"
   },
   "entrypoints": [
-    "static/css/main.1b4d3c56.css",
-    "static/js/main.c46168ef.js"
+    "static/css/main.5bc3cc92.css",
+    "static/js/main.f0cb4d2f.js"
   ]
 }
