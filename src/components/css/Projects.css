@@ -7,6 +7,7 @@
     box-shadow: var(--shadow1);
     width: 90%;
     height: 70%;
+    overflow: hidden;
 }
 
 #projects-content {
@@ -32,8 +33,10 @@
     align-items: center;
     text-align: center;
     padding: 10px;
-    border: 2px solid var(--color3);
+    border: 2px solid var(--color1);
     box-sizing: border-box;
+    cursor: pointer;
+    border-radius: var(--radius1);
 }
 
 .projects-tab + .projects-tab {
@@ -60,6 +63,10 @@
 #project-title {
     width: 100%;
     text-align: center;
+    border-bottom: 1px solid var(--color2);
+    padding: 20px;
+    box-sizing: border-box;
+    margin: 0px;
 }
 
 #desAndLink p {

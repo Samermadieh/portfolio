@@ -8,7 +8,7 @@ function Projects() {
     const infos = [
         {
             title: "Realary",
-            description: "Started a YouTube channel that teaches people how to become VR Developers. I create tutorials that are mostly about Unity and development for the Oculus/Meta platform.",
+            description: "Founder of educational YouTube channel \'RealaryVR\' that produces VR development content. I create tutorials that are mostly about Unity and VR development for the Oculus/Meta platform.",
             imgUrl: "https://realary.com/wp-content/uploads/2022/01/cropped-TransparentNeon.png",
             link: "https://www.youtube.com/realaryvr"
         },
