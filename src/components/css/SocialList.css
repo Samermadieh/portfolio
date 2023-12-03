@@ -1,0 +1,27 @@
+#social-list {
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+#social-list a {
+    margin: 0;
+}
+
+.social-element {
+    margin-right: 20px;
+    height: 30px;
+    width: 30px;
+}
+
+.social-icon {
+    height: 100%;
+    width: 100%;
+    color: var(--color3);
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.social-icon:hover {
+    color: var(--color1);
+}

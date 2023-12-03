@@ -1,33 +1,61 @@
 #app-content {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
-    top: 6vh;
-    height: 94vh;
+    height: 100vh;
+    padding: 5% 10%;
+    align-items: end;
 }
 
-#portrait {
-    border-radius: var(--radius1);
-    box-shadow: var(--shadow1);
-    height: 70%;
-    margin-bottom: 10px;
-}
-
-#img-container {
+#content-left, #content-right {
     display: flex;
     flex-direction: column;
     justify-content: start;
-    align-items: center;
-    height: 70%;
-    width: 90%;
-    background-color: var(--color1);
-    border-radius: var(--radius1);
-    box-shadow: var(--shadow1);
-    margin: 20px;
-    padding: 20px;
+    align-items: start;
+    height: 100%;
+}
+
+#content-left {
+    width: 40%;
+    position: fixed;
+    left: 10%;
+}
+
+#content-right {
+    width: 50%;
+}
+
+#main-info img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 100%;
+    box-shadow: 0px -1px 1px 0px rgb(200, 198, 198), 0px 3px 3px 0px black;
+    transition: 0.3s;
+}
+
+#main-info img:hover {
+    box-shadow: 0px -1px 1px 0px rgb(200, 198, 198), 0px 10px 10px 0px black;
+    transform: translateY(-10px);
+}
+
+#main-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: 100%;
     box-sizing: border-box;
     overflow: hidden;
+}
+
+#main-info > * {
+    margin: 10px 0;
+}
+
+#main-info p {
+    width: 50%;
 }
 
 #img-container h1, #img-container h2 {
@@ -36,29 +64,4 @@
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-}
-
-#content-left, #content-right {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-}
-
-#content-left {
-    width: 65%;
-}
-
-#content-right {
-    width: 35%;
-}
-
-h1 {
-    font-size: 3em;
-    margin: 0;
-}
-
-h2 {
-    font-style: italic;
 }

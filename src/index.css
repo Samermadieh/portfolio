@@ -1,8 +1,10 @@
 :root {
-  --color1: white;
-  --color2: lightgray;
-  --color3: black;
-  --color4: #73fdfd;
+  --color1: #e6e6fa;
+  --color2: #14143e;
+  --color3: #9e9eb3;
+  --color4: #2c2c60;
+  --color5: rgb(112, 112, 255);
+  --color6: #1f1f52;
 
   --radius1: 5px;
 
@@ -19,9 +21,24 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--color2);
+  color: var(--color1);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 1.3em;
+  font-weight: normal;
+}
+
+p {
+  line-height: 1.5;
+  color: var(--color3);
 }

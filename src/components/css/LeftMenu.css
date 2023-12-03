@@ -1,0 +1,40 @@
+.left-menu {
+    margin: 50px 0px;
+}
+
+.left-menu-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    cursor: pointer;
+}
+
+.left-menu-line {
+    width: 30px;
+    height: 2px;
+    background-color: var(--color1);
+    margin-right: 10px;
+    transition: width 0.3s ease;
+}
+
+.left-menu-item:hover .left-menu-line {
+    width: 60px;
+}
+
+.left-menu-item.selected p {
+    color: var(--color1);
+}
+
+.left-menu-item.selected .left-menu-line {
+    width: 60px;
+}
+
+.left-menu-item:hover p{
+    color: var(--color1);
+}
+
+.left-menu-item p {
+    font-weight: bold;
+    font-size: 0.8em;
+}

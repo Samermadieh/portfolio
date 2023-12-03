@@ -1,11 +1,8 @@
 import './css/Projects.css';
-import { useState } from 'react';
 
 function Projects() {
 
-    const [i, setI] = useState(0);
-
-    const infos = [
+    const projects = [
         {
             title: "Realary",
             description: "Founder of educational YouTube channel \'RealaryVR\' that produces VR development content. I create tutorials that are mostly about Unity and VR development for the Oculus/Meta platform.",
@@ -24,29 +21,23 @@ function Projects() {
             imgUrl: "https://hebron.onrender.com/assets/hLogo-11df2860.png",
             link: "https://hebron.onrender.com/"
         }
-    ]
-
-    function OnTabClick(i) {
-        setI(i);
-    }
+    ];
 
     return (
-        <div id="projects-main">
-            <div id="projects-content">
-                <h2 id="project-title">{infos[i].title}</h2>
-                <div id="project-des">
-                    <img src={infos[i].imgUrl}/>
-                    <div id="desAndLink">
-                        <p>{infos[i].description}</p>
-                        <a id="project-link" href={infos[i].link} target='_blank'>Visit</a>
+        <div id="projects">
+            {projects.map((project, index) => (
+                <div className='project' onClick={() => window.open(project.link, '_blank')}>
+                    <div className='project-left'>
+                        <div className='project-img-container'>
+                            <img src={project.imgUrl} />
+                        </div>
+                    </div>
+                    <div className='project-right'>
+                        <h3>{project.title}</h3>
+                        <p>{project.description}</p>
                     </div>
                 </div>
-            </div>
-            <div id="projects-tabs">
-                <div className={`projects-tab ${i == 0 ? 'selected' : ''}`} onClick={() => OnTabClick(0)}>Realary</div>
-                <div className={`projects-tab ${i == 1 ? 'selected' : ''}`} onClick={() => OnTabClick(1)}>VR UI Package</div>
-                <div className={`projects-tab ${i == 2 ? 'selected' : ''}`} onClick={() => OnTabClick(2)}>Onboarding App</div>
-            </div>
+            ))}
         </div>
     )
 }
