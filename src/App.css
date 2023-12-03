@@ -65,3 +65,33 @@
     overflow: hidden;
     text-overflow: ellipsis;
 }
+
+@media only screen and (max-device-width: 480px) {
+    #app-content {
+        flex-direction: column;
+        height: auto;
+    }
+    #content-left, #content-right {
+        position: relative;
+        width: 100%;
+        left: 0;
+        margin-top: 50px;
+    }
+
+    .left-menu {
+        display: none !important;
+    }
+
+    .experience-item {
+        flex-direction: column !important;
+    }
+
+    .project {
+        flex-direction: column !important;
+    }
+
+    .project-left {
+        width: 60% !important;
+        margin-bottom: 30px;
+    }
+}
