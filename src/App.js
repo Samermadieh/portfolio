@@ -30,7 +30,7 @@ function App() {
           <SocialList />
         </div>
         <div id="content-right">
-          <p id="about">{about.split('\n').map((line, index) => <p key={index}>{line}</p>)}</p>
+          <div id="about">{about.split('\n').map((line, index) => <p key={index}>{line}</p>)}</div>
           <Experience />
           <Projects />
         </div>

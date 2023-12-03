@@ -38,7 +38,7 @@ function Experience() {
         <div id="experience">
             {
                 experience.map((job, index) => (
-                    <div className='experience-item' onClick={ job.link != "" ? () => window.open(job.link, '_blank') : null}>
+                    <div className='experience-item' key={index} onClick={ job.link != "" ? () => window.open(job.link, '_blank') : null}>
                         <div className='experience-left'>
                             <p>{job.date}</p>
                         </div>
@@ -47,7 +47,7 @@ function Experience() {
                             <p>{job.description}</p>
                             <div className='experience-skills'>
                                 {job.skills.map((skill, index) => (
-                                    <div className='experience-skill'>{skill}</div>
+                                    <div className='experience-skill' key={index}>{skill}</div>
                                 ))}
                             </div>
                         </div>

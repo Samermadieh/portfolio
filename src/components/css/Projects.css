@@ -50,3 +50,15 @@
     height: 100%;
     object-fit: cover;
 }
+
+.project-stats {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+}
+
+.project-stats p {
+    margin-left: 10px;
+    color: var(--color1);
+}
