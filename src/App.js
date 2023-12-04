@@ -4,10 +4,12 @@ import LeftMenu from './components/LeftMenu';
 import SocialList from './components/SocialList';
 import Experience from './components/Experience';
 import portrait from './assets/portrait.jpg';
+import { useEffect, useState } from 'react';
 
 
 function App() {
 
+  const [isScrolling, setIsScrolling] = useState(false);
   const shortInfo = "I build exceptional applications for desktop, web and XR.";
   const about = `Software engineer with a versatile skillset. Strong programming skills in C#, Javascript, Java, Python, and more. 
   Quick to learn and grasp new concepts and effective in working within a team setting. 
@@ -15,9 +17,34 @@ function App() {
   Creator of educational tech YouTube Channel “RealaryVR” with 3500+ subscribers and 400k+ views. 
   More than 4 years of experience in developing virtual reality applications and other projects in Unity. 
   Experienced Full-Stack engineer.`;
-  
+
+  useEffect(() => {
+
+    const spotlight = document.getElementById('spotlight');
+
+    document.addEventListener('mousemove', (e) => {
+      spotlight.style.transform = `translate(${e.clientX - spotlight.offsetWidth / 2}px, ${e.clientY - spotlight.offsetHeight / 2}px)`;
+    });
+
+    document.addEventListener('scroll', (e) => {
+      console.log('scroll');
+      if (!isScrolling) {
+        setIsScrolling(true);
+        document.getElementById('spotlight').style.display = 'none';
+      }
+    });
+
+    document.addEventListener('scrollend', (e) => {
+      console.log('scrollend');
+      setIsScrolling(false);
+      document.getElementById('spotlight').style.removeProperty('display');
+    });
+  }, [isScrolling]);
+
+
   return (
     <div className="App">
+      <div id="spotlight"></div>
       <div id="app-content">
         <div id="content-left">
           <div id="main-info">

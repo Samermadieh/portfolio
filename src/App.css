@@ -8,7 +8,8 @@
     align-items: end;
 }
 
-#content-left, #content-right {
+#content-left,
+#content-right {
     display: flex;
     flex-direction: column;
     justify-content: start;
@@ -50,7 +51,7 @@
     overflow: hidden;
 }
 
-#main-info > * {
+#main-info>* {
     margin: 10px 0;
 }
 
@@ -58,7 +59,8 @@
     width: 50%;
 }
 
-#img-container h1, #img-container h2 {
+#img-container h1,
+#img-container h2 {
     padding: 10px;
     margin: 0px;
     white-space: nowrap;
@@ -66,12 +68,26 @@
     text-overflow: ellipsis;
 }
 
+#spotlight {
+    position: fixed;
+    width: 600px;
+    height: 600px;
+    border-radius: 50%;
+    pointer-events: none;
+    mix-blend-mode: screen;
+    /* Using 'screen' blend mode to brighten */
+    background: radial-gradient(circle at center, rgba(93, 30, 156, 0.131) 0%, rgba(255, 255, 255, 0) 70%);
+    transition: all 0.1s ease-out;
+}
+
 @media only screen and (max-device-width: 480px) {
     #app-content {
         flex-direction: column;
         height: auto;
     }
-    #content-left, #content-right {
+
+    #content-left,
+    #content-right {
         position: relative;
         width: 100%;
         left: 0;
