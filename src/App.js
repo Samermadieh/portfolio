@@ -11,12 +11,12 @@ function App() {
 
   const [isScrolling, setIsScrolling] = useState(false);
   const shortInfo = "I build exceptional applications for desktop, web and XR.";
-  const about = `Software engineer with a versatile skillset. Strong programming skills in C#, Javascript, Java, Python, and more. 
-  Quick to learn and grasp new concepts and effective in working within a team setting. 
+  const about = `Software engineer and leader with a versatile skillset. Strong programming skills in C#, Javascript, Java, Python, and more.
+  Experienced Full-Stack engineer that has built multiple full platforms.
   Worked on Ilysia VR, one of the first VR MMOs, as a VR Software Engineer. 
   Creator of educational tech YouTube Channel “RealaryVR” with 3500+ subscribers and 400k+ views. 
-  More than 4 years of experience in developing virtual reality applications and other projects in Unity. 
-  Experienced Full-Stack engineer.`;
+  More than 4 years of experience in developing virtual reality applications and other projects in Unity.
+  Quick to learn and grasp new concepts and effective in working within a team setting. `;
 
   useEffect(() => {
 

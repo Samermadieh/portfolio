@@ -3,6 +3,16 @@ import './css/Experience.css';
 function Experience() {
     const experience = [
         {
+            title: "CTO",
+            company: "Nahda",
+            date: "2023 - PRESENT",
+            description: "CTO at Educational Technology startup Nahda. We are building a platform that enables the 400+ million Arabic speakers to learn skills that are in demand in today's global economy. Our goal is to provide quality Arabic education and support Arab content creators.",
+            link: "https://www.nahda.io/",
+            skills: [
+                "Full-stack", "UI/UX", "Azure", "Video"
+            ]
+        },
+        {
             title: "Software Engineer III",
             company: "Clothing Tech",
             date: "2022 - PRESENT",
