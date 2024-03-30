@@ -1,17 +1,27 @@
 import './css/Projects.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faUser, faRankingStar } from '@fortawesome/free-solid-svg-icons';
+import { faUser, faRankingStar, faCode } from '@fortawesome/free-solid-svg-icons';
 
 function Projects() {
 
     const projects = [
+        {
+            title: "Nahda",
+            description: "Educational Technology platform Nahda. Building a platform that enables the 400+ million Arabic speakers to learn skills that are in demand in today's global economy. Our goal is to provide quality Arabic education and support Arab content creators.",
+            imgUrl: "https://www.nahda.io/assets/logo-tp-rdKyLp9y.png",
+            link: "https://www.nahda.io/",
+            stats: {
+                text: "Full-stack Application",
+                icon: faCode
+            }
+        },
         {
             title: "Realary",
             description: "Founder of educational YouTube channel \'RealaryVR\' that produces VR development content. I create tutorials that are mostly about Unity and VR development for the Oculus/Meta platform.",
             imgUrl: "https://realary.com/wp-content/uploads/2022/01/cropped-TransparentNeon.png",
             link: "https://www.youtube.com/realaryvr",
             stats: {
-                text: "3.5k+ subscribers, 400k+ views",
+                text: "3.9k+ subscribers, 500k+ views",
                 icon: faUser
             }
         },
@@ -31,8 +41,8 @@ function Projects() {
             imgUrl: "https://hebron.onrender.com/assets/hLogo-11df2860.png",
             link: "https://hebron.onrender.com/",
             stats: {
-                text: "",
-                icon: null
+                text: "Full-stack Application",
+                icon: faCode
             }
         }
     ];

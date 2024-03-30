@@ -14,7 +14,7 @@ function App() {
   const about = `Software engineer and leader with a versatile skillset. Strong programming skills in C#, Javascript, Java, Python, and more.
   Experienced Full-Stack engineer that has built multiple full platforms.
   Worked on Ilysia VR, one of the first VR MMOs, as a VR Software Engineer. 
-  Creator of educational tech YouTube Channel “RealaryVR” with 3500+ subscribers and 400k+ views. 
+  Creator of educational tech YouTube Channel “RealaryVR” with 3900+ subscribers and 500k+ views. 
   More than 4 years of experience in developing virtual reality applications and other projects in Unity.
   Quick to learn and grasp new concepts and effective in working within a team setting. `;
 
@@ -50,7 +50,7 @@ function App() {
           <div id="main-info">
             <img src={portrait} />
             <h1>Samer Madieh</h1>
-            <h2>Experienced Software Engineer</h2>
+            <h2>Senior Software Engineer</h2>
             <p>{shortInfo}</p>
           </div>
           <LeftMenu />
