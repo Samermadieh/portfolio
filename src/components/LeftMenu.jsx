@@ -15,7 +15,7 @@ function LeftMenu() {
           menuLine.classList.remove('selected');
         }
       });
-    }, { threshold: 0.5 });
+    }, { threshold: 0.4 });
 
     // Select the sections to observe
     const sectionsToObserve = document.querySelectorAll('#about, #experience, #projects');

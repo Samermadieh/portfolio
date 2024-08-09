@@ -3,9 +3,17 @@ import './css/Experience.css';
 function Experience() {
     const experience = [
         {
+            title: "Software Engineer",
+            company: "Amazon",
+            date: "2024 - PRESENT",
+            description: "Working as a software engineer at Amazon Web Services (AWS).",
+            link: "https://aws.amazon.com/",
+            skills: ["Java", "TypeScript", "AWS", "Backend"]
+        },
+        {
             title: "Senior Software Engineer",
             company: "Clothing Tech",
-            date: "2024 - PRESENT",
+            date: "2024 - 2024",
             description: "Working as the main UI engineer on clothing design software. Designing and implementing new feaatures in collaboration with multiple teams.",
             link: "https://www.clothingtech.com/",
             skills: [
@@ -46,6 +54,7 @@ function Experience() {
 
     return (
         <div id="experience">
+            <h3 className='category-header'>EXPERIENCE</h3>
             {
                 experience.map((job, index) => (
                     <div className='experience-item' key={index} onClick={ job.link != "" ? () => window.open(job.link, '_blank') : null}>

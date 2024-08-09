@@ -18,7 +18,7 @@ function Projects() {
         {
             title: "Realary",
             description: "Founder of educational YouTube channel \'RealaryVR\' that produces VR development content. I create tutorials that are mostly about Unity and VR development for the Oculus/Meta platform.",
-            imgUrl: "https://realary.com/wp-content/uploads/2022/01/cropped-TransparentNeon.png",
+            imgUrl: "https://yt3.googleusercontent.com/LCDqCaTF9bt6fQhaRBMS64JagNJ1uHaE_u-UlEgINg02q60AVSaNP27MRWalgDtV0cqS0E6q=s160-c-k-c0x00ffffff-no-rj",
             link: "https://www.youtube.com/realaryvr",
             stats: {
                 text: "3.9k+ subscribers, 500k+ views",
@@ -28,7 +28,7 @@ function Projects() {
         {
             title: "VR UI Package",
             description: "The VR UI Package is a package for Unity designed to accelerate the development of VR applications and games. It offers a collection of prebuilt UI tools that can be easily integrated into your projects. By leveraging these tools, you can eliminate the need to build basic UI functionalities from scratch, allowing you to focus on more creative and specialized aspects specific to your project. We believe that this package will enhance your development experience and empower you to create compelling VR experiences.",
-            imgUrl: "https://i0.wp.com/realary.com/wp-content/uploads/2023/05/Logo500px.png?w=500&ssl=1",
+            imgUrl: "https://assetstorev1-prd-cdn.unity3d.com/key-image/c24aaee7-5a33-468a-98e3-1bb151ade404.png",
             link: "https://assetstore.unity.com/packages/3d/gui/vr-ui-package-249282",
             stats: {
                 text: "#4 out of 50k packages",
@@ -49,6 +49,7 @@ function Projects() {
 
     return (
         <div id="projects">
+            <h3 className='category-header'>PROJECTS</h3>
             {projects.map((project, index) => (
                 <div className='project' key={index} onClick={() => window.open(project.link, '_blank')}>
                     <div className='project-left'>
