@@ -21,7 +21,7 @@ function Projects() {
             imgUrl: "https://yt3.googleusercontent.com/LCDqCaTF9bt6fQhaRBMS64JagNJ1uHaE_u-UlEgINg02q60AVSaNP27MRWalgDtV0cqS0E6q=s160-c-k-c0x00ffffff-no-rj",
             link: "https://www.youtube.com/realaryvr",
             stats: {
-                text: "3.9k+ subscribers, 500k+ views",
+                text: "4.3k+ subscribers, 600k+ views",
                 icon: faUser
             }
         },
@@ -31,7 +31,7 @@ function Projects() {
             imgUrl: "https://assetstorev1-prd-cdn.unity3d.com/key-image/c24aaee7-5a33-468a-98e3-1bb151ade404.png",
             link: "https://assetstore.unity.com/packages/3d/gui/vr-ui-package-249282",
             stats: {
-                text: "#4 out of 50k packages",
+                text: "#1 out of 7k VR Packages, #4 out of 50k total",
                 icon: faRankingStar
             }
         },
@@ -49,7 +49,7 @@ function Projects() {
 
     return (
         <div id="projects">
-            <h3 className='category-header'>PROJECTS</h3>
+            <h3 className='category-header'>Projects</h3>
             {projects.map((project, index) => (
                 <div className='project' key={index} onClick={() => window.open(project.link, '_blank')}>
                     <div className='project-left'>

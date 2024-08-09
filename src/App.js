@@ -57,7 +57,7 @@ function App() {
           <SocialList />
         </div>
         <div id="content-right">
-          <h3 className='category-header'>ABOUT</h3>
+          <h3 className='category-header'>About</h3>
           <div id="about">{about.split('\n').map((line, index) => <p key={index}>{line}</p>)}</div>
           <Experience />
           <Projects />

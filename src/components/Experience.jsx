@@ -54,7 +54,7 @@ function Experience() {
 
     return (
         <div id="experience">
-            <h3 className='category-header'>EXPERIENCE</h3>
+            <h3 className='category-header'>Experience</h3>
             {
                 experience.map((job, index) => (
                     <div className='experience-item' key={index} onClick={ job.link != "" ? () => window.open(job.link, '_blank') : null}>
