@@ -1,0 +1,31 @@
+#recommendations {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.recommendation {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 25px;
+    border-radius: 8px;
+    transition: 0.3s;
+    margin-bottom: 30px;
+}
+
+.recommendation:hover {
+    background-color: var(--color6);
+    box-shadow: 0px -1px 1px 0px var(--color4), 0px 2px 1px 0px var(--color6);
+    cursor: pointer;
+}
+
+.recommendation:hover h3 {
+    color: var(--color5);
+}
+
+.recommendation p {
+    margin: 0;
+    margin-top: 15px;
+    white-space: pre-wrap;
+}
