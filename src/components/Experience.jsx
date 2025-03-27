@@ -3,9 +3,17 @@ import './css/Experience.css';
 function Experience() {
     const experience = [
         {
+            title: "Founder",
+            company: "Simple XR",
+            date: "2025 - PRESENT",
+            description: "Founder at tech startup, Simple XR. Creating the easiest and fastest way to build VR & AR applications.",
+            link: "https://simplexr.net",
+            skills: ["VR", "AR", "XR", "Management", "Marketing"]
+        },
+        {
             title: "Software Engineer",
             company: "Amazon",
-            date: "2024 - PRESENT",
+            date: "2024 - 2025",
             description: "Working as a software engineer at Amazon Web Services (AWS).",
             link: "https://aws.amazon.com/",
             skills: ["Java", "TypeScript", "AWS", "Backend"]

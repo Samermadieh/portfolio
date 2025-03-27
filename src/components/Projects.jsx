@@ -18,7 +18,7 @@ function Projects() {
         {
             title: "Realary",
             description: "Founder of educational YouTube channel \'RealaryVR\' that produces VR development content. I create tutorials that are mostly about Unity and VR development for the Oculus/Meta platform.",
-            imgUrl: "https://yt3.googleusercontent.com/LCDqCaTF9bt6fQhaRBMS64JagNJ1uHaE_u-UlEgINg02q60AVSaNP27MRWalgDtV0cqS0E6q=s160-c-k-c0x00ffffff-no-rj",
+            imgUrl: "https://realary.com/assets/logo-qwU21bGt.png",
             link: "https://www.youtube.com/realaryvr",
             stats: {
                 text: "4.3k+ subscribers, 600k+ views",
