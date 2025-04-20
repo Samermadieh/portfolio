@@ -57,8 +57,8 @@ function App() {
                     <SocialList />
                 </div>
                 <div id="content-right">
-                    <h3 className='category-header'>About</h3>
                     <div id="about">
+                        <h3 className='category-header'>About</h3>
                         <Highlighter highlightClassName='about-highlight'
                             className='about-paragraph'
                             searchWords={['RealaryVR']}
