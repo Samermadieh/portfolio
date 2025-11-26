@@ -21,7 +21,7 @@ function Projects() {
             imgUrl: "https://realary.com/assets/logo-qwU21bGt.png",
             link: "https://www.youtube.com/realaryvr",
             stats: {
-                text: "4.3k+ subscribers, 600k+ views",
+                text: "4.9k+ subscribers, 740k+ views",
                 icon: faUser
             }
         },

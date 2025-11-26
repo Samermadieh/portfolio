@@ -61,7 +61,7 @@ function App() {
                         <h3 className='category-header'>About</h3>
                         <Highlighter highlightClassName='about-highlight'
                             className='about-paragraph'
-                            searchWords={['RealaryVR']}
+                            searchWords={['RealaryVR', '4,900', "740,000+"]}
                             highlightTag={(props) => <CustomLink {...props} href="https://youtube.com/realaryvr" />}
                             textToHighlight={info.about} />
                     </div>
