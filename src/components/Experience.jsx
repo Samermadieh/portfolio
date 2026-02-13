@@ -3,12 +3,12 @@ import './css/Experience.css';
 function Experience() {
     const experience = [
         {
-            title: "Founder",
-            company: "Simple XR",
+            title: "Senior Software Engineer",
+            company: "SimpleXR",
             date: "2025 - PRESENT",
-            description: "Founder at tech startup, Simple XR. Creating the easiest and fastest way to build VR & AR applications.",
+            description: "Architected a full-stack no-code XR platform using Next.js, TypeScript, Three.js, Unity, C# and more that enables instant wireless testing of VR/MR applications without compilation delays.",
             link: "https://simplexr.net",
-            skills: ["VR", "AR", "XR", "Management", "Marketing"]
+            skills: ["VR", "MR", "C#", "Next.js", "MongoDB"]
         },
         {
             title: "Software Engineer",

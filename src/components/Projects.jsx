@@ -5,26 +5,7 @@ import { faUser, faRankingStar, faCode } from '@fortawesome/free-solid-svg-icons
 function Projects() {
 
     const projects = [
-        {
-            title: "Nahda",
-            description: "Educational Technology platform Nahda. Building a platform that enables the 400+ million Arabic speakers to learn skills that are in demand in today's global economy. Our goal is to provide quality Arabic education and support Arab content creators.",
-            imgUrl: "https://www.nahda.io/assets/logo-tp-rdKyLp9y.png",
-            link: "https://www.nahda.io/",
-            stats: {
-                text: "Full-stack Application",
-                icon: faCode
-            }
-        },
-        {
-            title: "Realary",
-            description: "Founder of educational YouTube channel \'RealaryVR\' that produces VR development content. I create tutorials that are mostly about Unity and VR development for the Oculus/Meta platform.",
-            imgUrl: "https://realary.com/assets/logo-qwU21bGt.png",
-            link: "https://www.youtube.com/realaryvr",
-            stats: {
-                text: "4.9k+ subscribers, 740k+ views",
-                icon: faUser
-            }
-        },
+
         {
             title: "VR UI Package",
             description: "The VR UI Package is a package for Unity designed to accelerate the development of VR applications and games. It offers a collection of prebuilt UI tools that can be easily integrated into your projects. By leveraging these tools, you can eliminate the need to build basic UI functionalities from scratch, allowing you to focus on more creative and specialized aspects specific to your project. We believe that this package will enhance your development experience and empower you to create compelling VR experiences.",
@@ -33,6 +14,26 @@ function Projects() {
             stats: {
                 text: "#1 out of 7k VR Packages, #4 out of 50k total",
                 icon: faRankingStar
+            }
+        },
+        {
+            title: "Realary",
+            description: "Founder of educational YouTube channel \'RealaryVR\' that produces VR development content. I create tutorials that are mostly about Unity and VR development for the Oculus/Meta platform.",
+            imgUrl: "https://realary.com/assets/logo-qwU21bGt.png",
+            link: "https://www.youtube.com/realaryvr",
+            stats: {
+                text: "4.9k+ subscribers, 750k+ views",
+                icon: faUser
+            }
+        },
+        {
+            title: "Nahda",
+            description: "Educational Technology platform Nahda. Building a platform that enables the 400+ million Arabic speakers to learn skills that are in demand in today's global economy. Our goal is to provide quality Arabic education and support Arab content creators.",
+            imgUrl: "https://www.nahda.io/assets/logo-tp-rdKyLp9y.png",
+            link: "https://www.nahda.io/",
+            stats: {
+                text: "Full-stack Application",
+                icon: faCode
             }
         },
         {
