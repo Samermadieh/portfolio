@@ -50,7 +50,7 @@ function App() {
                     <div id="main-info">
                         <img src={portrait} />
                         <h1>Samer Madieh</h1>
-                        <h2>Senior Software Engineer</h2>
+                        <h2>Lead Software Engineer</h2>
                         <p>{info.shortInfo}</p>
                     </div>
                     <LeftMenu />
